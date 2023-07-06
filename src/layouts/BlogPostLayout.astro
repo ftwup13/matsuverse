@@ -1,0 +1,15 @@
+---
+const {frontmatter} = Astro.props;
+---
+<html>
+    <!-- ... -->
+    <a href={frontmatter.href} style="text-decoration: none;">
+        <!-- <h1><span class="text-gradient">Matsuverse 媽祖澳韻文宇宙</span></h1> -->
+        <h1><span class="text-gradient">[Matsuverse]</span></h1>
+    </a>
+  <h1>{frontmatter.title}</h1>
+  <!-- <h2>Post author: {frontmatter.author}</h2> -->
+  <p>{frontmatter.description}</p>
+  <slot /> <!-- Markdown content is injected here -->
+  <!-- ... -->
+</html>
