@@ -12,8 +12,33 @@ import Card from '../components/Card.astro';
             <!-- 潮汐與霧 有高有低 看不清的存在<br /> -->
             潮汐 有高有低<br />
             霧 看不透的存在<br />
-		</p>
-		<ul role="list" class="link-card-grid">
+	</p>
+
+        <div id="pano">
+            <h2>全景照</h2>
+            <h2>Pano - Matsuverse</h2>
+        </div>
+	<ul role="list" class="link-card-grid">
+	    <Card
+		href="./panoSouthIsland"
+		title="南竿"
+		body="媽祖澳"
+	    />
+        </ul>
+	<ul role="list" class="link-card-grid">
+	    <Card
+		href="./panoWestIsland"
+		title="西島"
+		body="媽祖澳"
+	    />
+	    <Card
+		href="./panoEastIsland"
+		title="東島"
+		body="媽祖澳"
+	    />
+        </ul>
+
+	<ul role="list" class="link-card-grid">
 		    <!-- <Card
 			 href="https://docs.astro.build/"
 			 title="Documentation"
@@ -55,7 +80,8 @@ import Card from '../components/Card.astro';
 			body="五星級宇宙料理 ❤️"
 		    />
 		</ul>
-	</main>
+
+    </main>
 </Layout>
 
 <style>

@@ -1,0 +1,97 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+const { title } = Astro.props;
+const {frontmatter} = Astro.props;
+---
+
+<Layout title="Matsuverse 媽祖澳韻文宇宙">
+    <main>
+        <a href="/#pano" style="text-decoration: none;">
+
+	    <h2><span class="text-gradient">[全景照]</span></h1>
+	        <h2><span class="text-gradient">[Pano - Matsuverse]</span></h1>
+        </a>
+
+        <h2>東島</h2>
+
+	<ul role="list" class="link-card-grid">
+	    <Card
+		href="./panoRhinoIsland"
+		title="犀牛嶼"
+		body=""
+	    />
+	    <Card
+		href="./panoFuching"
+		title="福正村"
+		body=""
+	    />
+	    <Card
+		href="./panoMtDonyang"
+		title="東洋山"
+		body=""
+	    />
+	    <Card
+		href="./panoDapu"
+		title="大埔"
+		body=""
+	    />
+	    <Card
+		href="./panoMonao"
+		title="猛澳"
+		body=""
+	    />
+	    <Card
+		href="./panoDaping"
+		title="大坪"
+		body=""
+	    />
+        </ul>
+
+    </main>
+</Layout>
+
+<style>
+ main {
+     margin: auto;
+     padding: 1.5rem;
+     max-width: 60ch;
+ }
+ h1 {
+     font-size: 3rem;
+     font-weight: 800;
+     margin: 0;
+ }
+ .text-gradient {
+     background-image: var(--accent-gradient);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-size: 400%;
+     background-position: 0%;
+ }
+ .instructions {
+     line-height: 1.6;
+     margin: 1rem 0;
+     border: 1px solid rgba(var(--accent), 25%);
+     background-color: white;
+     padding: 1rem;
+     border-radius: 0.4rem;
+ }
+ .instructions code {
+     font-size: 0.875em;
+     font-weight: bold;
+     background: rgba(var(--accent), 12%);
+     color: rgb(var(--accent));
+     border-radius: 4px;
+     padding: 0.3em 0.45em;
+ }
+ .instructions strong {
+     color: rgb(var(--accent));
+ }
+ .link-card-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+     gap: 1rem;
+     padding: 0;
+ }
+</style>

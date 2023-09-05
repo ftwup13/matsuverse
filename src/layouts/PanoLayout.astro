@@ -1,0 +1,17 @@
+---
+const {frontmatter} = Astro.props;
+---
+<html>
+    <!-- ... -->
+    <a href={frontmatter.href} style="text-decoration: none;">
+        <h2><span class="text-gradient">[{frontmatter.group}]</span></h2>
+    </a>
+    <h1>{frontmatter.title}</h1>
+    <!-- <h2>Post author: {frontmatter.author}</h2> -->
+    <p>{frontmatter.description}</p>
+    <slot /> <!-- Markdown content is injected here -->
+    <!-- ... -->
+    <a href={frontmatter.href} style="text-decoration: none;">
+        <h2><span class="text-gradient">[{frontmatter.group}]</span></h2>
+    </a>
+</html>
