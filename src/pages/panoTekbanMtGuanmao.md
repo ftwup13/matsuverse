@@ -19,3 +19,5 @@ description:
 <img src="/pano/Tekban-mt-guanmao-IMG_1077.jpg" width="100%" alt="鐡板官帽山">
 
 <img src="/pano/Tekban-mt-guanmao-IMG_1079.jpg" width="100%" alt="鐡板官帽山">
+
+<img src="/pano/Tekban-mt-guanmao-IMG_3281.jpg" width="100%" alt="鐡板官帽山">
