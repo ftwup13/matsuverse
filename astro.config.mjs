@@ -4,6 +4,6 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   sitemap: true,
   site: 'https://matsuverse.gitlab.io/',
-  outDir: 'public',
+  outDir: 'dist',
   publicDir: 'static',
 });
