@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/BlogPostLayout.astro
-href: /
+href: ./
 title: "食^2物在馬祖澳"
 author: "ftW.uP.13"
 date: "1 July 2023"
@@ -46,4 +46,4 @@ date: "1 July 2023"
 ### 榕樹下
 
 
-[Matsuverse](/)
+[Matsuverse](./)

@@ -3,7 +3,8 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
   sitemap: true,
-  site: 'https://matsuverse.gitlab.io/',
+  site: 'https://pioleong.github.io/',
+  base: '/matsuverse',
   outDir: 'dist',
   publicDir: 'static',
 });

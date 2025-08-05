@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/BlogPostLayout.astro
-href: /
+href: ./
 title:
 description:
 ---
@@ -78,7 +78,7 @@ description:
 ## 官帽山步道 (小暑 07/2023)
 愛看海介紹的步道
 <!-- ![Mt. Guanmao Trial.](/GuanmaoshanTrial.jpg) -->
-<img src="/GuanmaoshanTrial.jpg" width="80%" alt="Mt. Guanmao Trial"> 
+<img src="./GuanmaoshanTrial.jpg" width="80%" alt="Mt. Guanmao Trial">
 
 
 植物多，46據點，360度觀景台, 還有蚊子很多的炮彈路。
@@ -141,4 +141,4 @@ description:
 
 ---
 
-[Matsuverse](/)
+[Matsuverse](./)

@@ -2,6 +2,7 @@
 const {frontmatter} = Astro.props;
 ---
 <html>
+    <base href={import.meta.env.BASE_URL} />
     <!-- ... -->
     <a href={frontmatter.href} style="text-decoration: none;">
         <h2><span class="text-gradient">[{frontmatter.group}]</span></h2>

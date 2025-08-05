@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/BlogPostLayout.astro
-href: /
+href: ./
 title: "老酒在馬祖"
 author: "ftW.uP.13"
 date: "29 June 2023"
@@ -23,4 +23,4 @@ date: "29 June 2023"
 <!-- 第五瓶愛看海送禮金沙魚特產專賣店  (07/2023) -->
 <!-- 第六瓶買再買一次介壽市場四維淡菜  (07/2023) -->
 
-[Matsuverse](/)
+[Matsuverse](./)

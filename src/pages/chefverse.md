@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/BlogPostLayout.astro
-href: /
+href: ./
 title: "煮廚在馬祖"
 author: "ftW.uP.13"
 date: "30 June 2023"
@@ -9,8 +9,8 @@ date: "30 June 2023"
 ## 貝類
 <!-- https://kmweb.coa.gov.tw/subject/subject.php?id=33640 -->
 ### 莒光花蛤
-<img src="/山隴莒光花蛤.jpg" width="50%" alt="山隴莒光花蛤">
-<img src="/山隴莒光花蛤-dish.jpg" width="50%" alt="山隴莒光花蛤">
+<img src="./ShanlongJuguangClams.jpg" width="50%" alt="山隴莒光花蛤">
+<img src="./ShanlongJuguangClams-dish.jpg" width="50%" alt="山隴莒光花蛤">
 
 蒜油薑炒花蛤，新鮮彈牙，醬汁配繼光餅，沾著吃。
 
@@ -70,4 +70,4 @@ date: "30 June 2023"
 <!-- # 緣起 -->
 <!-- 用更少的處理 醠真接的食物 -->
 
-[Matsuverse](/)
+[Matsuverse](./)
