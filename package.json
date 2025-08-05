@@ -11,8 +11,5 @@
     },
     "dependencies": {
         "astro": "^2.7.0"
-    },
-    "devDependencies": {
-        "broken-link-checker": "^0.7.8"
     }
 }

@@ -9,9 +9,6 @@
       "version": "0.0.1",
       "dependencies": {
         "astro": "^2.7.0"
-      },
-      "devDependencies": {
-        "broken-link-checker": "^0.7.8"
       }
     },
     "node_modules/@ampproject/remapping": {
